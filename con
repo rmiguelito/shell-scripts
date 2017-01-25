@@ -1,0 +1,7 @@
+#!/bin/bash
+
+#Maintener Rodrigo Miguel rodrigomvi@algartech.com 
+#Required
+ip=$1
+
+sudo ssh rodrigo.rmv@$ip
