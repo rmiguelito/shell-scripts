@@ -1,0 +1,4 @@
+groupadd g_sis
+useradd -r -g g_sis -u 1001 -c "Rodrigo Miguel" -d /home/rodrigo.rmv -s /bin/bash rodrigo.rmv
+passwd rodrigo.rmv
+
