@@ -1,0 +1,4 @@
+Jan 04 11:35:55 sogod [32628]: SOGoRootPage successful login from '201.53.138.123' for user 'lasmar.jlla' - expire = -1  grace = -1
+Jan 05 09:35:45 sogod [6392]: SOGoRootPage successful login from '201.53.138.123' for user 'lasmar.jlla' - expire = -1  grace = -1
+Jan 15 12:55:27 sogod [7055]: SOGoRootPage successful login from '186.205.134.93' for user 'lasmar.jlla' - expire = -1  grace = -1
+Jan 17 19:06:27 sogod [2155]: SOGoRootPage successful login from '186.205.134.93' for user 'lasmar.jlla' - expire = -1  grace = -1

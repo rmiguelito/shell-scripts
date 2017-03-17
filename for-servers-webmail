@@ -1,0 +1,10 @@
+#!/bin/bash
+
+#Maintener Rodrigo Miguel rodrigomvi@algartech.com 
+machines="10.2.192.29 10.2.192.30 10.2.192.31 10.2.192.36 10.2.192.37 10.2.192.38"
+user=rodrigo.rmv
+password=Redeslpi
+
+for host in $machines;
+do
+sshpass -p$password ssh -o StrictHostKeyChecking=no -n $user@$host 'zcat /var/log/sogo/sogo.log-201[67]????.gz | grep lasmar.jlla | grep "successful login from"' > /var/log/shell-scripts/output-$host.txt ; done

@@ -1,0 +1,20 @@
+#!/bin/bash
+
+#Maintener Rodrigo Miguel rodrigomvi@algartech.com 
+machines="ldap01.dpf.gov.br ldap02.dpf.gov.br"
+user=rodrigo.rmv
+password=Redeslpi
+
+for host in $machines;
+do
+sshpass -p$password ssh -o StrictHostKeyChecking=no -n $user@$host for i in $(cat /tmp/sobra-todos); do cat /var/log/dirsrv/bkp-logs/access.201[67]????-?????? | grep $i | grep BIND | grep 'ou=cpf' ; done ; done
+
+
+
+#for host in $machines;
+#do
+
+#sshpass -pRedeslpi ssh-copy-id rodrigo.rmv@10.2.192.29
+
+#sshpass -p$password ssh-copy-id -f -o StrictHostKeyChecking=no -n $user@$host ; done
+

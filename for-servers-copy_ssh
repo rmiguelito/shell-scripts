@@ -1,0 +1,14 @@
+#!/bin/bash
+
+#Maintener Rodrigo Miguel rodrigomvi@algartech.com 
+machines="10.2.192.28 10.2.192.29 10.2.192.30 10.2.192.31 10.2.192.32 10.2.192.33"
+user=rodrigo.rmv
+password=Redeslpi
+
+for host in $machines;
+do
+
+#sshpass -pRedeslpi ssh-copy-id rodrigo.rmv@10.2.192.29
+
+sshpass -p$password ssh-copy-id -f -o StrictHostKeyChecking=no -n $user@$host ; done
+

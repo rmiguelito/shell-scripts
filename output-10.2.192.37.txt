@@ -1,0 +1,17 @@
+Nov 21 17:41:33 sogod [9949]: SOGoRootPage successful login from '10.21.1.196' for user 'lasmar.jlla' - expire = -1  grace = -1
+Nov 22 19:07:31 sogod [23983]: SOGoRootPage successful login from '10.21.1.196' for user 'lasmar.jlla' - expire = -1  grace = -1
+Nov 25 13:12:13 sogod [24804]: SOGoRootPage successful login from '10.21.1.196' for user 'lasmar.jlla' - expire = -1  grace = -1
+Nov 25 22:04:52 sogod [25608]: SOGoRootPage successful login from '10.21.1.196' for user 'lasmar.jlla' - expire = -1  grace = -1
+Nov 25 23:28:56 sogod [17536]: SOGoRootPage successful login from '10.21.1.196' for user 'lasmar.jlla' - expire = -1  grace = -1
+Nov 30 11:32:54 sogod [4865]: SOGoRootPage successful login from '10.21.1.196' for user 'lasmar.jlla' - expire = -1  grace = -1
+Dec 02 18:02:41 sogod [20223]: SOGoRootPage successful login from '10.21.1.196' for user 'lasmar.jlla' - expire = -1  grace = -1
+Dec 21 15:11:49 sogod [24499]: SOGoRootPage successful login from '10.21.1.196' for user 'lasmar.jlla' - expire = -1  grace = -1
+Jan 02 15:25:53 sogod [20220]: SOGoRootPage successful login from '10.21.1.196' for user 'lasmar.jlla' - expire = -1  grace = -1
+Jan 05 17:23:15 sogod [1454]: SOGoRootPage successful login from '10.21.1.196' for user 'lasmar.jlla' - expire = -1  grace = -1
+Jan 06 16:25:00 sogod [21492]: SOGoRootPage successful login from '10.21.1.196' for user 'lasmar.jlla' - expire = -1  grace = -1
+Jan 06 18:18:07 sogod [4869]: SOGoRootPage successful login from '10.21.1.196' for user 'lasmar.jlla' - expire = -1  grace = -1
+Jan 10 18:48:35 sogod [4662]: SOGoRootPage successful login from '10.21.1.196' for user 'lasmar.jlla' - expire = -1  grace = -1
+Jan 10 18:56:46 sogod [14364]: SOGoRootPage successful login from '10.21.1.196' for user 'lasmar.jlla' - expire = -1  grace = -1
+Jan 11 17:01:38 sogod [29278]: SOGoRootPage successful login from '10.21.1.196' for user 'lasmar.jlla' - expire = -1  grace = -1
+Jan 16 16:29:33 sogod [7179]: SOGoRootPage successful login from '10.21.1.196' for user 'lasmar.jlla' - expire = -1  grace = -1
+Jan 24 18:04:39 sogod [29527]: SOGoRootPage successful login from '10.21.1.196' for user 'lasmar.jlla' - expire = -1  grace = -1
