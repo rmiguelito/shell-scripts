@@ -9,12 +9,12 @@ commonname=$domain
 country='BR'
 state='DF'
 locality='Brasilia'
-organization='Policia Federal'
-organizationalunit='Coordenacao-Geral de Tecnologia da Informacao - CGTI'
-email='sso.sst.cti@dpf.gov.br'
+organization='ORG'
+organizationalunit='OU'
+email='email'
  
 #Optional
-password=ApToJB15951
+password=pass
  
 if [ -z "$domain" ]
 then
