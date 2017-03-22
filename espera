@@ -1,7 +1,7 @@
 #!/usr/bin/expect -f
-spawn ssh 10.2.192.29
+spawn ssh IP
 expect "login:" 
 send "rodrigo.rmv\r"
 expect "Password:"
-send "Redeslpi\r"
+send "***\r"
 interact
