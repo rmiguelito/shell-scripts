@@ -1,10 +1,10 @@
 #!/bin/bash
 
 #Maintener Rodrigo Miguel rodrigomvi@algartech.com 
-machines="ldap01.dpf.gov.br ldap02.dpf.gov.br"
-user=rodrigo.rmv
-password=Redeslpi
+machines="IP IP"
+user=user
+password=pass
 
 for host in $machines;
 do
-sshpass -p$password ssh -o StrictHostKeyChecking=no -n $user@$host cat /var/log/dirsrv/bkp-logs/access.201[67]????-?????? | grep lasmar.jlla | grep BIND > output-$host.txt ; done
+sshpass -p$password ssh -o StrictHostKeyChecking=no -n $user@$host cat access.201[67]????-?????? | grep * | grep BIND > output-$host.txt ; done
