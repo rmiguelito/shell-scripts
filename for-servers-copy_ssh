@@ -1,9 +1,9 @@
 #!/bin/bash
 
 #Maintener Rodrigo Miguel rodrigomvi@algartech.com 
-machines="10.2.192.28 10.2.192.29 10.2.192.30 10.2.192.31 10.2.192.32 10.2.192.33"
-user=rodrigo.rmv
-password=Redeslpi
+machines="IPS separados por espaço"
+user=user
+password=pass
 
 for host in $machines;
 do
