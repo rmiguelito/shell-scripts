@@ -1,1 +1,1 @@
-echo "Usuarios LDAP QUERIDAO" | mail -a /tmp/uids-tratado -s "Usuarios LDAP ATIVOS" danieldn@algartech.com
+echo "Boby" | mail -a /tmp/file -s "Subject" email@gmail.com
