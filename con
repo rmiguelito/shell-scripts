@@ -4,4 +4,4 @@
 #Required
 ip=$1
 
-sshpass -pRedeslpi ssh -o StrictHostKeyChecking=no rodrigo.rmv@$ip
+sshpass -pPass ssh -o StrictHostKeyChecking=no rodrigo.rmv@$ip
