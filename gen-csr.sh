@@ -36,6 +36,7 @@ openssl req -newkey rsa:2048 -keyout $domain.key -keyform PEM -SHA256 -out $doma
 echo "Removing passphrase from key"
 openssl rsa -in $domain.key -passin pass:$password -out $domain.key
 
+openssl x509 -req -days 365 -in $domain.csr -signkey $domain.key -out $domain.crt
 
 	
 echo "---------------------------"
